@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link rel="canonical" href="aboutus.html" />
+
+    <meta name="description" content="About Us" />
+    <meta name="keywords" content="About Us" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Custom (Base) CSS -->
+    <link rel="stylesheet" href="home/css/custom.css">
+    <style>
+        body {
+                    background-color: #1f1f1f;
+                }
+
+                .transparent-layer{
+                        background-color: rgba(11, 13 ,14, 0.6) !important;
+
+                    }
+                    .header-transparent-layer {
+                    background-color: rgba(11, 13 ,14, 0.6) !important;
+
+                    }
+
+                .all-article-link{
+                    background-color:  #142b65 !important;
+                    color:  #ffffff !important;
+                    border: 1px solid #142b65 !important;
+                }
+
+                .bg-dark, .bg-header, .bg-footer {
+                    background-color:  #061646 !important;
+                    background-image: none;
+                }
+
+                .dropdown-content2 {
+                    background-color:  #b9fe03 !important;
+                    background-image: none;
+                }
+
+                .dropdown-content2 custom-nav-link {
+                    background-color:  #ffffff !important;
+                    background-image: none;
+                }
+                .dropdown-content2 a:hover  {
+                    background-color:  #061646 !important;
+                    background-image: none;
+                }
+
+                .top-header {
+                    background-color:  #142b65 !important;
+
+                    background-image: none;
+                }
+                .lmcy_hfollow, .top-header a, .top-header li,.top-header span, .top-header div{
+                color:  #f5f6f6 !important;
+                }
+
+
+
+                .bg-dark, .navbar-brand, .bottom_footer_menu_text, .bottom_footer_menu_text li a{
+                    color: #ffffff !important;
+                }
+
+                .lmcy_logo_n {
+                    color: #ffffff !important;
+                }
+                .lmcy_header_magazine_style.lmcy_cus_top_share.header_layout_style3_custom .social_icon_header_top li a i{
+                color: #f5f6f6 !important;
+                }
+
+                .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+                    color: #ffffff;
+                }
+
+                footer .social-link {
+                    color: #061646 !important;
+                    background-color: #ffffff !important;
+                }
+                .jlm_w span{
+                    background:#ffffff;
+                }
+                .jlm_w span:hover{
+                    background:#16a34a;
+                }
+
+
+                .navbar-dark .navbar-nav .nav-link,
+                .dropdown-content a,
+                footer.py-5.bg-dark.text-center p,
+                footer.py-5.bg-dark.text-center a,
+                footer.py-5.bg-dark.text-center a:hover,
+                footer.py-5.bg-dark.text-center a:focus,
+                footer.py-5.bg-dark.text-center a:focus-visible, .header-text-color {
+                    color: #ffffff;
+                }
+
+                .navbar-dark .navbar-nav .nav-link:hover,
+                .bd_left:hover,
+                .dropdown-content li:hover,
+                .navbar-dark .navbar-nav .nav-link:focus {
+                    color: #16a34a;
+                }
+                .head-title {
+                    color: #ffffff !important;
+                }
+                .head-tagline {
+                    color: #ffffff;
+                }
+
+                footer.py-5.bg-dark.text-center, .footer-text-color {
+                    color: #ffffff !important;
+                }
+
+                .pre-footer, .pre-footer a{
+                    background-color: undefined !important;
+                    color: undefined !important;
+                }
+
+                .text-theme,
+                a.text-theme:focus,
+                a.text-theme:hover {
+                    color: #16a34a !important;
+                }
+
+                .btn-banner-theme {
+                    color: #191b1d;
+                    background-color: #b9fe03;
+                    border-color: #b9fe03;
+                }
+
+                .btn-banner-theme:hover {
+                    color: #191b1d;
+                    background-color: #b9fe03;
+                }
+
+                .btn-theme {
+                    color: #191b1d;
+                    background-color: #ffd601;
+                    border-color: #b9fe03;
+                }
+
+                .btn-theme:hover {
+                    color: #191b1d;
+                    background-color: #1f1f1f;
+                }
+
+
+                .card-title, .card-heading {
+                    color: #ffffff;
+                }
+
+                .main-heading {
+                    color: #ffffff;
+                }
+
+                .card-text {
+                    color: #e4e7e9!important;
+                    height: auto !important;
+                    min-height: 140px;
+                }
+                .card-text p {
+                    color: #e4e7e9!important;
+
+                }
+                .article-card-text, .article-card-text p, .article-card-text h1, .article-card-text h2, .article-card-text h3, .article-card-text h4, .article-card-text h5 {
+                    color: undefined !important;
+
+                }
+                .article-card-text * {
+                    color: undefined !important;
+                   background: none !important;
+                }
+                .article-container {
+                    background-color: #142b65;
+                    padding : 10px;
+
+                }
+                .custom-footer {
+                    background-color: #b9fe03;
+
+                }
+
+                .cards-container .card {
+                    background-color: #142b65 !important;
+                    border: 2px solid #282828 !important;
+                    border-radius: 14px;
+                }
+
+                .cards-container .card .card-title {
+                    color: #ffffff;
+                }
+
+                .cards-container .card .card-text {
+                    color: #b5b5b5!important;
+                }
+                .article-info {
+                    color: #b5b5b5;
+                }
+    </style>
+</head>
+
+<body>
+
+<!-- Top Infobar -->
+<section id="top-infobar" class="navbar d-none d-lg-block p-1 top-infobar">
+    <div class="container-md justify-content-md-between">
+        <div class="d-inline-flex gap-2 align-items-center top-infobar-address">
+            <!-- Address -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt"
+                 viewBox="0 0 16 16">
+                <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+            </svg>
+            <span class="small">m,p,s,p,p,Sialkot,Punjab,PK</span>
+        </div>
+
+        <div class="d-inline-flex gap-4 align-items-center top-infobar-icons " style="display: inherit">
+            <!-- Social Icon(s) -->
+            <a href="https:/facebook.com" class="text-decoration-none" style="display: inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                     class="bi bi-facebook mb-1" viewBox="0 0 16 16">
+                    <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+            </a>
+
+            <a href="https:/instagram.com" class="text-decoration-none" style="display: inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                     class="bi bi-instagram mb-1" viewBox="0 0 16 16">
+                    <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+            </a>
+
+            <a href="https:/twitter.com" class="text-decoration-none" style="display: inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                     class="bi bi-twitter-x mb-1" viewBox="0 0 16 16">
+                    <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                </svg>
+            </a>
+
+            <a href="https://Pinterest.com" class="text-decoration-none" style="display: inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                     class="bi bi-pinterest-x mb-1" viewBox="0 0 496 512">
+                    <path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3 .8-3.4 5-20.3 6.9-28.1 .6-2.5 .3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/>
+
+                </svg>
+            </a>
+
+
+            <a href="https:/youtube.com" class="text-decoration-none" style="display: inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                     class="bi bi-youtube mb-1" viewBox="0 0 16 16">
+                    <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Header (sm) with Top Navbar -->
+<header id="header" class="position-relative header-sm"
+        style="background: url(banner_image.png) no-repeat center;background-size: cover;background-attachment: fixed;">
+    <!-- Top Navbar -->
+    <nav class="navbar bg-transparent sticky-top top-navbar navbar-dark">
+        <div class="container-md justify-content-md-between">
+            <a class="navbar-brand m-0 d-inline-flex gap-2 align-items-center" href="index.html">
+                <!-- Brand Logo/Mark -->
+                <img fetchpriority="low" async="true" defer="true" src="logo.png" onerror="this.remove()" style="display: inherit"
+                     width="75" height="32" />
+                <!-- Brand Name -->
+                <span class="small navbar-brand">Electronic Products</span>
+            </a>
+
+            <!-- Mobile Menu Icons -->
+            <div class="d-lg-none mobile-call-menu-icons">
+                <a href="tel:+12345678909" class="text-decoration-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                         fill="currentColor">
+                        <path
+                                d="M17.4097 11C17.1897 11 16.9597 10.93 16.7397 10.88C16.2945 10.7805 15.8568 10.6501 15.4297 10.49C14.9658 10.3212 14.4558 10.33 13.998 10.5146C13.5402 10.6992 13.1668 11.0466 12.9497 11.49L12.7297 11.95C11.7585 11.3992 10.8613 10.7271 10.0597 9.95C9.28254 9.14837 8.61048 8.25118 8.05968 7.28L8.51968 7.07C8.96305 6.85292 9.31046 6.47953 9.49508 6.02169C9.67969 5.56385 9.68845 5.05391 9.51968 4.59C9.36087 4.15903 9.23059 3.71808 9.12968 3.27C9.07968 3.05 9.03968 2.82 9.00968 2.6C8.88825 1.89562 8.51931 1.25774 7.96931 0.801239C7.4193 0.344737 6.72438 0.0996088 6.00968 0.11H2.99968C2.57693 0.109446 2.15883 0.198248 1.7728 0.370584C1.38677 0.54292 1.04152 0.794898 0.759684 1.11C0.472004 1.43365 0.257799 1.81575 0.131787 2.23004C0.00577499 2.64432 -0.0290571 3.08098 0.0296837 3.51C0.573271 7.67214 2.47489 11.5387 5.43968 14.51C8.41103 17.4748 12.2775 19.3764 16.4397 19.92C16.5695 19.9299 16.6999 19.9299 16.8297 19.92C17.5671 19.9211 18.2791 19.6505 18.8297 19.16C19.1448 18.8782 19.3968 18.5329 19.5691 18.1469C19.7414 17.7609 19.8302 17.3428 19.8297 16.92V13.92C19.8243 13.229 19.5805 12.5611 19.1396 12.0291C18.6987 11.4971 18.0876 11.1336 17.4097 11ZM17.8997 17C17.8994 17.1395 17.8698 17.2775 17.813 17.4049C17.7562 17.5324 17.6733 17.6465 17.5697 17.74C17.4601 17.8399 17.3297 17.9141 17.1878 17.9573C17.046 18.0006 16.8963 18.0117 16.7497 17.99C13.018 17.5026 9.54993 15.802 6.87968 13.15C4.20716 10.4775 2.49171 6.99737 1.99968 3.25C1.97796 3.10333 1.98912 2.95367 2.03236 2.81185C2.0756 2.67003 2.14983 2.5396 2.24968 2.43C2.3443 2.32515 2.46006 2.24154 2.58933 2.18466C2.7186 2.12778 2.85846 2.09892 2.99968 2.1H5.99968C6.23085 2.09435 6.45682 2.16898 6.63915 2.3112C6.82147 2.45341 6.94888 2.65442 6.99968 2.88C6.99968 3.15 7.08968 3.43 7.14968 3.7C7.26526 4.22386 7.419 4.73857 7.60968 5.24L6.20968 5.9C5.96905 6.01046 5.78204 6.21185 5.68968 6.46C5.58967 6.70346 5.58967 6.97654 5.68968 7.22C7.12888 10.3028 9.60693 12.7808 12.6897 14.22C12.9331 14.32 13.2062 14.32 13.4497 14.22C13.6978 14.1276 13.8992 13.9406 14.0097 13.7L14.6397 12.3C15.1556 12.4881 15.6834 12.6418 16.2197 12.76C16.4797 12.82 16.7597 12.87 17.0297 12.91C17.2553 12.9608 17.4563 13.0882 17.5985 13.2705C17.7407 13.4529 17.8153 13.6788 17.8097 13.91L17.8997 17ZM11.9997 0C11.7697 0 11.5297 0 11.2997 0C11.0345 0.0225434 10.7891 0.14952 10.6175 0.352997C10.4459 0.556474 10.3621 0.819784 10.3847 1.085C10.4072 1.35022 10.5342 1.59562 10.7377 1.76721C10.9412 1.93881 11.2045 2.02254 11.4697 2H11.9997C13.591 2 15.1171 2.63214 16.2423 3.75736C17.3675 4.88258 17.9997 6.4087 17.9997 8C17.9997 8.18 17.9997 8.35 17.9997 8.53C17.9775 8.79381 18.0609 9.05565 18.2314 9.2581C18.402 9.46055 18.6459 9.5871 18.9097 9.61H18.9897C19.24 9.61102 19.4816 9.5181 19.6668 9.34961C19.8519 9.18113 19.9672 8.94932 19.9897 8.7C19.9897 8.47 19.9897 8.23 19.9897 8C19.9897 5.88 19.1482 3.84668 17.6501 2.34668C16.1519 0.846674 14.1197 0.00265 11.9997 0ZM13.9997 8C13.9997 8.26522 14.105 8.51957 14.2926 8.70711C14.4801 8.89464 14.7345 9 14.9997 9C15.2649 9 15.5193 8.89464 15.7068 8.70711C15.8943 8.51957 15.9997 8.26522 15.9997 8C15.9997 6.93913 15.5783 5.92172 14.8281 5.17157C14.078 4.42143 13.0605 4 11.9997 4C11.7345 4 11.4801 4.10536 11.2926 4.29289C11.105 4.48043 10.9997 4.73478 10.9997 5C10.9997 5.26522 11.105 5.51957 11.2926 5.70711C11.4801 5.89464 11.7345 6 11.9997 6C12.5301 6 13.0388 6.21071 13.4139 6.58579C13.789 6.96086 13.9997 7.46957 13.9997 8Z"
+                                fill="currentColor" />
+                    </svg>
+                </a>
+
+                <a href="#toggleMobileMenu" class="ms-3 me-1 text-decoration-none" data-bs-toggle="offcanvas"
+                   role="button" aria-controls="toggleMobileMenu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14"
+                         fill="currentColor">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 7C0 6.44772 0.447715 6 1 6H19C19.5523 6 20 6.44772 20 7C20 7.55228 19.5523 8 19 8H1C0.447715 8 0 7.55228 0 7Z"
+                              fill="currentColor" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z"
+                              fill="currentColor" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z"
+                              fill="currentColor" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Mobile Offcanvas Menu -->
+            <div class="offcanvas offcanvas-start bg-primary offcanvas-mobile-menu" tabindex="-1"
+                 id="toggleMobileMenu" aria-labelledby="toggleMobileMenuLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand m-0 d-inline-flex gap-2 align-items-center mobile-menu-brand-name"
+                       href="index.html">
+                        <!-- Brand Logo/Mark -->
+                        <img fetchpriority="low" async="true" defer="true"
+                             src="logo.png" onerror="this.remove()" style="display: inherit" width="75" height="32" />
+                        <!-- Brand Name -->
+                        <span class="small">Electronic Products</span>
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body px-0">
+                    <ul class="navbar-nav vstack navbar-mobile-menu mobile-menu-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active ps-3 fw-semibold">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicesMenu" class="nav-link ps-3 fw-semibold dropdown-toggle"
+                               data-bs-toggle="collapse" role="button" aria-expanded="false"
+                               aria-controls="servicesMenu">
+                                Services
+                            </a>
+
+                            <ul class="collapse p-0 py-2 " id="servicesMenu">
+                                <a class="custom-nav-link" href="coach-hire.html">Coach hire</a><a class="custom-nav-link" href="event-transport.html">Event transport</a><a class="custom-nav-link" href="long-distance-travel.html">Long distance travel</a><a class="custom-nav-link" href="private-hire.html">Private hire</a><a class="custom-nav-link" href="group-travel.html">Group travel</a><a class="custom-nav-link" href="corporate-travel.html">Corporate travel</a><a class="custom-nav-link" href="wedding-transport.html">Wedding transport</a><a class="custom-nav-link" href="school-trips.html">School trips</a><a class="custom-nav-link" href="sightseeing-tours.html">Sightseeing tours</a><a class="custom-nav-link" href="airport-transfers.html">Airport transfers</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link ps-3 fw-semibold">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="aboutus.html" class="nav-link ps-3 fw-semibold">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link ps-3 fw-semibold">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="mt-5 px-3 d-inline-flex gap-4 align-items-center mobile-menu-icons">
+                        <!-- Social Icon(s) -->
+                        <a href="https:/facebook.com" class="text-decoration-none" style="display: inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-facebook mb-1" viewBox="0 0 16 16">
+                                <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg>
+                        </a>
+
+                        <a href="https:/instagram.com" class="text-decoration-none" style="display: inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-instagram mb-1" viewBox="0 0 16 16">
+                                <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+
+                        <a href="https:/twitter.com" class="text-decoration-none" style="display: inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-twitter-x mb-1" viewBox="0 0 16 16">
+                                <path
+                                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                            </svg>
+                        </a>
+
+                        <a href="https://Pinterest.com" class="text-decoration-none" style="display: inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                 class="bi bi-pinterest-x mb-1" viewBox="0 0 496 512">
+                                <path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3 .8-3.4 5-20.3 6.9-28.1 .6-2.5 .3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/>
+
+                            </svg>
+                        </a>
+
+                        <a href="https:/youtube.com" class="text-decoration-none" style="display: inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                 class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="ms-auto d-none d-lg-block">
+                <ul class="navbar-nav hstack gap-3 gap-lg-4 navbar-desktop-menu">
+                    <li class="nav-item ">
+                        <a href="index.html" class="nav-link fw-medium {{home_active}}">Home</a>
+                    </li>
+                    <li class="nav-item custom-nav-item ">
+                        <a href="services.html" class="nav-link fw-medium {{service_active}}" >Services</a>
+                        <div class="custom-dropdown slideup py-2 rounded-3 bg-primary">
+                            <a class="custom-nav-link" href="coach-hire.html">Coach hire</a><a class="custom-nav-link" href="event-transport.html">Event transport</a><a class="custom-nav-link" href="long-distance-travel.html">Long distance travel</a><a class="custom-nav-link" href="private-hire.html">Private hire</a><a class="custom-nav-link" href="group-travel.html">Group travel</a><a class="custom-nav-link" href="corporate-travel.html">Corporate travel</a><a class="custom-nav-link" href="wedding-transport.html">Wedding transport</a><a class="custom-nav-link" href="school-trips.html">School trips</a><a class="custom-nav-link" href="sightseeing-tours.html">Sightseeing tours</a><a class="custom-nav-link" href="airport-transfers.html">Airport transfers</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="blog.html" class="nav-link fw-medium {{blog_active}}">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="aboutus.html" class="nav-link fw-medium active">About Us</a>
+                    </li>
+                    <li class="nav-item " style="display: inherit">
+                        <a href="contact.html" class="nav-link fw-medium {{contact_active}}">Contact Us</a>
+                    </li>
+                    <li class="nav-item" style="display: ">
+                        <a href="tel:12345678909" class="btn btn-sm btn-primary fw-medium px-2">
+                            Call <span class="d-none d-xl-inline-block">12345678909</span>
+                            <span class="d-xl-none">Now</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Content -->
+    <div class="card-img-overlay px-3 text-center header-content">
+        <div class="vstack justify-content-center align-items-center h-100">
+            <h1 class="display-5 text-capitalize fw-bold"><span>About Us</span></h1>
+
+            <!--            <nav aria-label="breadcrumb" class="fw-medium">-->
+            <!--                <ol class="breadcrumb mb-0">-->
+            <!--                    -->
+            <!--                    <li class="breadcrumb-item">-->
+            <!--                        <a href="javascript:void(0)" class="text-decoration-none">Home</a>-->
+            <!--                    </li>-->
+
+            <!--                    <li class="breadcrumb-item active" aria-current="page">Services</li>-->
+            <!--                </ol>-->
+            <!--            </nav>-->
+        </div>
+    </div>
+</header>
+
+
+<!-- Service Details -->
+<section id="service-details" class="bg-section-dark px-3 py-5">
+    <header class="py-2 border-bottom mb-4" style="display: inherit">
+        <div class="ql-editor py-4 " id="sitewide-header">
+            This is Header HTML.. This is Header HTML.. This is Header HTML.. This is Header HTML.. This is Header HTML.. This is Header HTML.. This is Header HTML.. This is Header HTML..
+        </div>
+    </header>
+    <div class="container-md px-0 px-md-3 py-md-5">
+        <div class="row g-4 section-content">
+            <div class="col-12 col-xl-6">
+    <div class="card h-100 border-0 bg-section-dark">
+        <h2 class="mb-4 text-capitalize fw-bold">About Electronic Products
+            </h2>
+
+            <p>
+                Welcome to Electronic Products - your premier bus and coach company in Bristol. With a passion for delivering top-notch transportation services, we pride ourselves on providing safe, reliable, and comfortable travel experiences for our customers. Our fleet of modern buses and coaches are equipped with the latest electronic products to ensure a seamless journey for all passengers.
+
+At Electronic Products, we are committed to exceeding customer expectations by offering exceptional service and a wide range of transportation options. Whether you need transportation for a special event, a group outing, or your daily commute, our friendly and professional team is here to meet your needs. Experience the difference with Electronic Products and let us take you to your destination in style.
+            </p>
+
+            <h3 class="h2 text-capitalize my-4">
+                Our Mission
+            </h3>
+
+            <p class="mb-md-4 mb-xl-0">
+                At Electronic Products, our mission is to revolutionize the bus and coach industry in Bristol by providing cutting-edge electronic solutions for a seamless and comfortable travel experience. As a leader in our field, we are committed to offering innovative products that enhance the safety, efficiency, and convenience of commuters and travelers alike. Our dedication to quality and customer satisfaction drives us to constantly push the boundaries of technology to meet the evolving needs of the transportation sector.
+
+We strive to be at the forefront of technological advancements in the bus and coach industry, setting new standards for excellence and reliability. By focusing on creating state-of-the-art electronic products that optimize performance and user experience, we aim to elevate the overall journey for passengers and operators. Through a combination of expertise, innovation, and a passion for improvement, Electronic Products is dedicated to shaping the future of transportation in Bristol and beyond.
+            </p>
+    </div>
+</div>
+
+<div class="col-12 col-xl-6">
+    <div class="card h-100 border-0 rounded-4 bg-transparent">
+        <img src="aboutus-171404.jpg?key=B3yPVR" alt="About Us" class="rounded-4 h-100">
+    </div>
+</div>
+
+
+<div class="col-12 col-xl-12">
+    <div class="card h-100 border-0 bg-section-dark">
+        <h2 class="mt-4 mt-xl-0 mb-4 text-capitalize fw-bold">
+            Our values
+        </h2>
+
+        <div class="row g-4">
+            <div class="col-sm-6">
+    <div class="vstack gap-3">
+        <div class="svg-fill-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                 viewBox="0 0 36 40" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M35.46 10.24L35.18 9.74C34.8188 9.13538 34.3094 8.63286 33.7 8.28L20.28 0.54C19.6724 0.1875 18.9826 0.00124 18.28 0H17.7C16.9974 0.00124 16.3076 0.1875 15.7 0.54L2.28 8.3C1.67394 8.65052 1.17052 9.15394 0.82 9.76L0.54 10.26C0.1875 10.8677 0.00124 11.5575 0 12.26V27.76C0.00124 28.4626 0.1875 29.1524 0.54 29.76L0.82 30.26C1.17958 30.859 1.68098 31.3604 2.28 31.72L15.72 39.46C16.3246 39.8198 17.0164 40.0066 17.72 40H18.28C18.9826 39.9988 19.6724 39.8126 20.28 39.46L33.7 31.7C34.312 31.3574 34.8174 30.852 35.16 30.24L35.46 29.74C35.8082 29.1306 35.9942 28.442 36 27.74V12.24C35.9988 11.5375 35.8126 10.8477 35.46 10.24ZM17.7 4H18.28L30 10.76L18 17.68L6 10.76L17.7 4ZM20 35L31.7 28.24L32 27.74V14.22L20 21.16V35Z" />
+            </svg>
+        </div>
+
+        <h3 class="text-capitalize mb-0">
+            - Quality Service
+        </h3>
+
+        <p>
+             We are committed to providing top-notch coach hire and event transport services that exceed our customers' expectations in Bristol.
+        </p>
+    </div>
+</div><div class="col-sm-6">
+    <div class="vstack gap-3">
+        <div class="svg-fill-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                 viewBox="0 0 36 40" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M35.46 10.24L35.18 9.74C34.8188 9.13538 34.3094 8.63286 33.7 8.28L20.28 0.54C19.6724 0.1875 18.9826 0.00124 18.28 0H17.7C16.9974 0.00124 16.3076 0.1875 15.7 0.54L2.28 8.3C1.67394 8.65052 1.17052 9.15394 0.82 9.76L0.54 10.26C0.1875 10.8677 0.00124 11.5575 0 12.26V27.76C0.00124 28.4626 0.1875 29.1524 0.54 29.76L0.82 30.26C1.17958 30.859 1.68098 31.3604 2.28 31.72L15.72 39.46C16.3246 39.8198 17.0164 40.0066 17.72 40H18.28C18.9826 39.9988 19.6724 39.8126 20.28 39.46L33.7 31.7C34.312 31.3574 34.8174 30.852 35.16 30.24L35.46 29.74C35.8082 29.1306 35.9942 28.442 36 27.74V12.24C35.9988 11.5375 35.8126 10.8477 35.46 10.24ZM17.7 4H18.28L30 10.76L18 17.68L6 10.76L17.7 4ZM20 35L31.7 28.24L32 27.74V14.22L20 21.16V35Z" />
+            </svg>
+        </div>
+
+        <h3 class="text-capitalize mb-0">
+            - Safety First
+        </h3>
+
+        <p>
+             Ensuring the safety and well-being of our passengers is our top priority for all long-distance travel, private hire, and group travel services.
+        </p>
+    </div>
+</div><div class="col-sm-6">
+    <div class="vstack gap-3">
+        <div class="svg-fill-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                 viewBox="0 0 36 40" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M35.46 10.24L35.18 9.74C34.8188 9.13538 34.3094 8.63286 33.7 8.28L20.28 0.54C19.6724 0.1875 18.9826 0.00124 18.28 0H17.7C16.9974 0.00124 16.3076 0.1875 15.7 0.54L2.28 8.3C1.67394 8.65052 1.17052 9.15394 0.82 9.76L0.54 10.26C0.1875 10.8677 0.00124 11.5575 0 12.26V27.76C0.00124 28.4626 0.1875 29.1524 0.54 29.76L0.82 30.26C1.17958 30.859 1.68098 31.3604 2.28 31.72L15.72 39.46C16.3246 39.8198 17.0164 40.0066 17.72 40H18.28C18.9826 39.9988 19.6724 39.8126 20.28 39.46L33.7 31.7C34.312 31.3574 34.8174 30.852 35.16 30.24L35.46 29.74C35.8082 29.1306 35.9942 28.442 36 27.74V12.24C35.9988 11.5375 35.8126 10.8477 35.46 10.24ZM17.7 4H18.28L30 10.76L18 17.68L6 10.76L17.7 4ZM20 35L31.7 28.24L32 27.74V14.22L20 21.16V35Z" />
+            </svg>
+        </div>
+
+        <h3 class="text-capitalize mb-0">
+            - Professionalism
+        </h3>
+
+        <p>
+             From corporate travel to wedding transport, our experienced team upholds the highest standards of professionalism in every service we offer.
+        </p>
+    </div>
+</div><div class="col-sm-6">
+    <div class="vstack gap-3">
+        <div class="svg-fill-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                 viewBox="0 0 36 40" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M35.46 10.24L35.18 9.74C34.8188 9.13538 34.3094 8.63286 33.7 8.28L20.28 0.54C19.6724 0.1875 18.9826 0.00124 18.28 0H17.7C16.9974 0.00124 16.3076 0.1875 15.7 0.54L2.28 8.3C1.67394 8.65052 1.17052 9.15394 0.82 9.76L0.54 10.26C0.1875 10.8677 0.00124 11.5575 0 12.26V27.76C0.00124 28.4626 0.1875 29.1524 0.54 29.76L0.82 30.26C1.17958 30.859 1.68098 31.3604 2.28 31.72L15.72 39.46C16.3246 39.8198 17.0164 40.0066 17.72 40H18.28C18.9826 39.9988 19.6724 39.8126 20.28 39.46L33.7 31.7C34.312 31.3574 34.8174 30.852 35.16 30.24L35.46 29.74C35.8082 29.1306 35.9942 28.442 36 27.74V12.24C35.9988 11.5375 35.8126 10.8477 35.46 10.24ZM17.7 4H18.28L30 10.76L18 17.68L6 10.76L17.7 4ZM20 35L31.7 28.24L32 27.74V14.22L20 21.16V35Z" />
+            </svg>
+        </div>
+
+        <h3 class="text-capitalize mb-0">
+            - Community Focus
+        </h3>
+
+        <p>
+             As a bus and coach company in Bristol, we take pride in serving our community with school trips, sightseeing tours, and airport transfers that showcase the best of the city.
+        </p>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- Locations -->
+<section id="locations-section" class="bg-section-light px-3 py-5" style="display: none">
+    <div class="container-md px-0 px-md-3 py-md-5">
+        <div class="row bg-section-light rounded g-0 g-md-4">
+            <div class="col-12 col-lg-5 align-self-center">
+                <div class="card h-100 border-0 p-0 bg-section-light" style="display: {{is_contact_iframe_url}}">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.23556989094!2d74.00404905408621!3d31.483101908426793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1711715157850!5m2!1sen!2s"
+                            class="border-0 rounded" height="340" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-7 section-content">
+                <div class="card h-100 border-0 p-0 bg-section-light mt-5 mt-md-0">
+                    <div class="card-body p-2 pt-0">
+                        <small
+                                class="badge py-2 rounded-pill pill-dark text-uppercase fw-medium w-auto">Locations</small>
+
+                        <h2 class="text-capitalize mt-3">
+                            we serve the following areas
+                        </h2>
+
+                        <div class="row service-areas">
+                            <div class="col-12 col-md-6">
+                                <div class="d-flex flex-column gap-3">
+                                    {{related_areas}}
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Related Services -->
+<section id="related-section" class="bg-section-light px-3 py-5" style="display: none">
+    <div class="container-md px-0 px-md-3 py-md-5">
+        <div class="container-sm mb-5 text-center section-content">
+            <h3 class="text-capitalize mb-0">
+                Related Links
+            </h3>
+        </div>
+
+        <div class="row g-4 mt-md-5">
+            
+        </div>
+    </div>
+</section>
+
+<!-- Quotation Form -->
+<section id="quotation-section" class="bg-section-dark px-3 py-5">
+    <div class="container-md px-0 px-md-3 py-md-5">
+        <div class="container-sm mb-5 text-center section-content">
+            <small class="badge py-2 rounded-pill pill-light text-uppercase fw-medium">Quotation</small>
+
+            <h2 class="text-capitalize my-3">
+                request a free quote
+            </h2>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-12 col-md-10 col-lg-6">
+                <form class="row g-4">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" name="name" class="form-control bg-transparent form-input" id="name"
+                               required="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control bg-transparent form-input" id="email" required="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control bg-transparent form-input" id="phone" required="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="address" class="form-label">Address, Postcode</label>
+                        <input type="text" class="form-control bg-transparent form-input" id="address" required="">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="service" class="form-label">Select Service</label>
+                        <select name="service" id="service" class="form-select bg-transparent form-input"
+                                required="">
+                            <option selected="" disabled="">Select one...</option>
+                            <option>Coach hire</option><option>Event transport</option><option>Long distance travel</option><option>Private hire</option><option>Group travel</option><option>Corporate travel</option><option>Wedding transport</option><option>School trips</option><option>Sightseeing tours</option><option>Airport transfers</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" class="form-control bg-transparent form-input" id="message"
+                                  rows="7" placeholder="Type your message..." required=""></textarea>
+                    </div>
+
+                    <div class="col-12 text-md-center">
+                        <button type="submit"
+                                class="btn btn-sm btn-outline text-capitalize w-auto px-3 btn-submit">Submit
+                            your request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="company-details-section" class="bg-section-light px-3 py-5">
+    <div class="container-md px-0 px-md-3 py-md-5 section-content">
+        <div class="row bg-section-light rounded-4 g-0 g-md-5">
+            <div class="col-12 col-lg-4 align-self-center">
+                <div class="card h-100 border-0 p-0 bg-section-light">
+                    <div class="vstack gap-5">
+                        <div class="hstack gap-4" style="display: ">
+                            <div class="align-self-start">
+                                <div
+                                        class="bg-primary small-icon d-flex align-items-center justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                         viewBox="0 0 18 20" fill="#191b1d">
+                                        <path
+                                                d="M17.21 6.82003L11 0.780025C10.474 0.279878 9.77586 0.000976562 9.05 0.000976562C8.32415 0.000976562 7.62604 0.279878 7.1 0.780025L0.89 6.78003C0.614081 7.02089 0.392165 7.31733 0.23879 7.64993C0.0854142 7.98253 0.00404064 8.34379 0 8.71003V17.29C0.0105405 18.0176 0.309044 18.7114 0.830118 19.2194C1.35119 19.7273 2.05235 20.008 2.78 20H15.22C15.9476 20.008 16.6488 19.7273 17.1699 19.2194C17.691 18.7114 17.9895 18.0176 18 17.29V8.71003C17.9992 8.3585 17.929 8.01058 17.7935 7.68625C17.6579 7.36191 17.4596 7.06754 17.21 6.82003ZM8.44 2.22003C8.59298 2.08019 8.79274 2.00264 9 2.00264C9.20726 2.00264 9.40702 2.08019 9.56 2.22003L15 7.50003L9.53 12.78C9.37702 12.9199 9.17726 12.9974 8.97 12.9974C8.76274 12.9974 8.56298 12.9199 8.41 12.78L3 7.50003L8.44 2.22003ZM16 17.29C15.9871 17.4863 15.8987 17.67 15.7532 17.8024C15.6078 17.9348 15.4166 18.0056 15.22 18H2.78C2.58338 18.0056 2.39225 17.9348 2.24678 17.8024C2.10132 17.67 2.01286 17.4863 2 17.29V9.35003L6.05 13.25L4.39 14.85C4.20375 15.0374 4.09921 15.2908 4.09921 15.555C4.09921 15.8192 4.20375 16.0727 4.39 16.26C4.48295 16.3575 4.59463 16.4352 4.71836 16.4885C4.84208 16.5418 4.9753 16.5695 5.11 16.57C5.36747 16.569 5.61462 16.4687 5.8 16.29L7.57 14.59C8.00961 14.8587 8.51481 15.0008 9.03 15.0008C9.54519 15.0008 10.0504 14.8587 10.49 14.59L12.26 16.29C12.4454 16.4687 12.6925 16.569 12.95 16.57C13.0847 16.5695 13.2179 16.5418 13.3416 16.4885C13.4654 16.4352 13.5771 16.3575 13.67 16.26C13.8563 16.0727 13.9608 15.8192 13.9608 15.555C13.9608 15.2908 13.8563 15.0374 13.67 14.85L12 13.25L16 9.35003V17.29Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="vstack mt-2">
+                                <h3 class="fw-semibold">Email</h3>
+                                <p class="fw-medium mb-0">aqayyum032@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="hstack gap-4" style="display: ">
+                            <div class="align-self-start">
+                                <div
+                                        class="bg-primary small-icon d-flex align-items-center justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                         viewBox="0 0 20 20" fill="#191b1d">
+                                        <path
+                                                d="M17.4097 11C17.1897 11 16.9597 10.93 16.7397 10.88C16.2945 10.7805 15.8568 10.6501 15.4297 10.49C14.9658 10.3212 14.4558 10.33 13.998 10.5146C13.5402 10.6992 13.1668 11.0466 12.9497 11.49L12.7297 11.95C11.7585 11.3992 10.8613 10.7271 10.0597 9.95C9.28254 9.14837 8.61048 8.25118 8.05968 7.28L8.51968 7.07C8.96305 6.85292 9.31046 6.47953 9.49508 6.02169C9.67969 5.56385 9.68845 5.05391 9.51968 4.59C9.36087 4.15903 9.23059 3.71808 9.12968 3.27C9.07968 3.05 9.03968 2.82 9.00968 2.6C8.88825 1.89562 8.51931 1.25774 7.96931 0.801239C7.4193 0.344737 6.72438 0.0996088 6.00968 0.11H2.99968C2.57693 0.109446 2.15883 0.198248 1.7728 0.370584C1.38677 0.54292 1.04152 0.794898 0.759684 1.11C0.472004 1.43365 0.257799 1.81575 0.131787 2.23004C0.00577499 2.64432 -0.0290571 3.08098 0.0296837 3.51C0.573271 7.67214 2.47489 11.5387 5.43968 14.51C8.41103 17.4748 12.2775 19.3764 16.4397 19.92C16.5695 19.9299 16.6999 19.9299 16.8297 19.92C17.5671 19.9211 18.2791 19.6505 18.8297 19.16C19.1448 18.8782 19.3968 18.5329 19.5691 18.1469C19.7414 17.7609 19.8302 17.3428 19.8297 16.92V13.92C19.8243 13.229 19.5805 12.5611 19.1396 12.0291C18.6987 11.4971 18.0876 11.1336 17.4097 11ZM17.8997 17C17.8994 17.1395 17.8698 17.2775 17.813 17.4049C17.7562 17.5324 17.6733 17.6465 17.5697 17.74C17.4601 17.8399 17.3297 17.9141 17.1878 17.9573C17.046 18.0006 16.8963 18.0117 16.7497 17.99C13.018 17.5026 9.54993 15.802 6.87968 13.15C4.20716 10.4775 2.49171 6.99737 1.99968 3.25C1.97796 3.10333 1.98912 2.95367 2.03236 2.81185C2.0756 2.67003 2.14983 2.5396 2.24968 2.43C2.3443 2.32515 2.46006 2.24154 2.58933 2.18466C2.7186 2.12778 2.85846 2.09892 2.99968 2.1H5.99968C6.23085 2.09435 6.45682 2.16898 6.63915 2.3112C6.82147 2.45341 6.94888 2.65442 6.99968 2.88C6.99968 3.15 7.08968 3.43 7.14968 3.7C7.26526 4.22386 7.419 4.73857 7.60968 5.24L6.20968 5.9C5.96905 6.01046 5.78204 6.21185 5.68968 6.46C5.58967 6.70346 5.58967 6.97654 5.68968 7.22C7.12888 10.3028 9.60693 12.7808 12.6897 14.22C12.9331 14.32 13.2062 14.32 13.4497 14.22C13.6978 14.1276 13.8992 13.9406 14.0097 13.7L14.6397 12.3C15.1556 12.4881 15.6834 12.6418 16.2197 12.76C16.4797 12.82 16.7597 12.87 17.0297 12.91C17.2553 12.9608 17.4563 13.0882 17.5985 13.2705C17.7407 13.4529 17.8153 13.6788 17.8097 13.91L17.8997 17ZM11.9997 0C11.7697 0 11.5297 0 11.2997 0C11.0345 0.0225434 10.7891 0.14952 10.6175 0.352997C10.4459 0.556474 10.3621 0.819784 10.3847 1.085C10.4072 1.35022 10.5342 1.59562 10.7377 1.76721C10.9412 1.93881 11.2045 2.02254 11.4697 2H11.9997C13.591 2 15.1171 2.63214 16.2423 3.75736C17.3675 4.88258 17.9997 6.4087 17.9997 8C17.9997 8.18 17.9997 8.35 17.9997 8.53C17.9775 8.79381 18.0609 9.05565 18.2314 9.2581C18.402 9.46055 18.6459 9.5871 18.9097 9.61H18.9897C19.24 9.61102 19.4816 9.5181 19.6668 9.34961C19.8519 9.18113 19.9672 8.94932 19.9897 8.7C19.9897 8.47 19.9897 8.23 19.9897 8C19.9897 5.88 19.1482 3.84668 17.6501 2.34668C16.1519 0.846674 14.1197 0.00265 11.9997 0ZM13.9997 8C13.9997 8.26522 14.105 8.51957 14.2926 8.70711C14.4801 8.89464 14.7345 9 14.9997 9C15.2649 9 15.5193 8.89464 15.7068 8.70711C15.8943 8.51957 15.9997 8.26522 15.9997 8C15.9997 6.93913 15.5783 5.92172 14.8281 5.17157C14.078 4.42143 13.0605 4 11.9997 4C11.7345 4 11.4801 4.10536 11.2926 4.29289C11.105 4.48043 10.9997 4.73478 10.9997 5C10.9997 5.26522 11.105 5.51957 11.2926 5.70711C11.4801 5.89464 11.7345 6 11.9997 6C12.5301 6 13.0388 6.21071 13.4139 6.58579C13.789 6.96086 13.9997 7.46957 13.9997 8Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="vstack mt-2">
+                                <h3 class="fw-semibold">Phone</h3>
+                                <p class="fw-medium mb-0">12345678909</p>
+                            </div>
+                        </div>
+                        <div class="hstack gap-4" style="display: ">
+                            <div class="align-self-start">
+                                <div
+                                        class="bg-primary small-icon d-flex align-items-center justify-content-center rounded-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="21"
+                                         viewBox="0 0 18 21" fill="#191b1d">
+                                        <path
+                                                d="M14.9999 2.48003C13.4086 0.888734 11.2504 -0.00524904 8.99993 -0.00524902C6.74949 -0.00524901 4.59123 0.888734 2.99993 2.48003C1.40863 4.07133 0.514648 6.2296 0.514648 8.48003C0.514648 10.7305 1.40863 12.8887 2.99993 14.48L8.26993 19.76C8.36289 19.8538 8.47349 19.9282 8.59535 19.9789C8.71721 20.0297 8.84792 20.0558 8.97993 20.0558C9.11194 20.0558 9.24265 20.0297 9.36451 19.9789C9.48637 19.9282 9.59697 19.8538 9.68993 19.76L14.9999 14.43C16.5846 12.8454 17.4748 10.6961 17.4748 8.45503C17.4748 6.21398 16.5846 4.06471 14.9999 2.48003ZM13.5699 13L8.99993 17.59L4.42993 13C3.52707 12.0963 2.91241 10.9453 2.66362 9.69232C2.41484 8.43937 2.54312 7.14078 3.03223 5.96071C3.52135 4.78065 4.34935 3.77208 5.41156 3.06251C6.47377 2.35294 7.72251 1.97421 8.99993 1.97421C10.2773 1.97421 11.5261 2.35294 12.5883 3.06251C13.6505 3.77208 14.4785 4.78065 14.9676 5.96071C15.4567 7.14078 15.585 8.43937 15.3362 9.69232C15.0875 10.9453 14.4728 12.0963 13.5699 13ZM5.99993 5.41003C5.19264 6.2198 4.73932 7.3166 4.73932 8.46003C4.73932 9.60347 5.19264 10.7003 5.99993 11.51C6.59969 12.1108 7.36352 12.5211 8.19558 12.6894C9.02764 12.8578 9.89088 12.7766 10.677 12.4562C11.4631 12.1358 12.1371 11.5903 12.6144 10.8883C13.0917 10.1863 13.3511 9.3589 13.3599 8.51003C13.3644 7.94324 13.2553 7.38129 13.0388 6.85742C12.8224 6.33355 12.5032 5.85839 12.0999 5.46003C11.7036 5.05461 11.231 4.73157 10.7094 4.5095C10.1877 4.28743 9.62727 4.17071 9.06033 4.16606C8.49339 4.16141 7.93113 4.26893 7.4059 4.48242C6.88067 4.69591 6.40285 5.01116 5.99993 5.41003ZM10.6899 10.09C10.311 10.4748 9.81014 10.7159 9.27306 10.7723C8.73597 10.8286 8.19599 10.6967 7.74544 10.399C7.29488 10.1012 6.96173 9.65627 6.80294 9.14012C6.64415 8.62396 6.66958 8.06867 6.87489 7.56919C7.0802 7.06971 7.45263 6.65705 7.92851 6.40177C8.4044 6.14649 8.95418 6.06444 9.48387 6.16965C10.0135 6.27486 10.4902 6.56079 10.8324 6.97856C11.1746 7.39634 11.3611 7.92 11.3599 8.46003C11.3454 9.0773 11.0864 9.66356 10.6399 10.09H10.6899Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="vstack mt-2">
+                                <h3 class="fw-semibold">Address</h3>
+                                <p class="fw-medium mb-0 text-capitalize">m,p,s,p,p,Sialkot,Punjab,PK</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-8 align-self-center" style="display: "">
+                <div class="card h-100 border-0 p-0 bg-section-light mt-5 mt-md-0">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.23556989094!2d74.00404905408621!3d31.483101908426793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1711715157850!5m2!1sen!2s"
+                            class="border-0 rounded-4" height="576" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-section-dark px-3 py-5 ">
+    <div class="pb-5 ql-editor " id="sitewide-footer" style="display:inherit">
+        This is Footer HTML.. This is Footer HTML.. This is Footer HTML.. This is Footer HTML.. This is Footer HTML.. This is Footer HTML.. This is Footer HTML.. This is Footer HTML..
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer" class="bg-primary p-3">
+    <div class="container-md px-0 px-md-3 py-md-5">
+        <div class="my-md-5 p-2 p-xl-5 border border-dark">
+            <div class="row g-lg-3">
+                <div class="col-12 col-lg-7 col-xl-7">
+                    <div class="vstack gap-5">
+                        <a class="navbar-brand m-0 d-inline-flex gap-2 align-items-center" href="index.html">
+                            <!-- Brand Logo/Mark -->
+                            <img fetchpriority="low" async="true" defer="true"
+                                 display: inherit " src="logo.png" onerror="this.remove()" width="75"
+                            height="32" />
+                            <!-- Brand Name -->
+                            <span class="fs-5 fw-medium">Electronic Products</span>
+                        </a>
+
+                        <div style="display: ">
+                            <strong>Address:</strong>
+                            <p class="mb-0">m,p,s,p,p,Sialkot,Punjab,PK</p>
+                        </div>
+
+                        <div style="display: ">
+                            <strong>Contact:</strong>
+                            <p class="mb-0">
+                                <a href="tel:+18001234567">12345678909</a>
+                                <br>
+                                <a style="display: " href="mailto:aqayyum032@gmail.com">aqayyum032@gmail.com</a>
+                            </p>
+                        </div>
+
+                        <div class="d-inline-flex gap-4" style="display: inherit">
+                            <a href="https:/facebook.com" class="text-decoration-none" style="display: inline-block" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                     class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg>
+                            </a>
+
+                            <a href="https:/instagram.com" class="text-decoration-none" style="display: inline-block" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                     class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </a>
+                            <a href="https:/twitter.com" class="text-decoration-none" style="display: inline-block" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                     class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                    <path
+                                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                </svg>
+                            </a>
+
+                            <a href="https://Pinterest.com" class="text-decoration-none" style="display: inline-block" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                     class="bi bi-pinterest-x" viewBox="0 0 496 512">
+                                    <path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3 .8-3.4 5-20.3 6.9-28.1 .6-2.5 .3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/>
+
+                                </svg>
+                            </a>
+
+
+                            <a href="https:/youtube.com" class="text-decoration-none" style="display: inline-block" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                     class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path
+                                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5 col-xl-5">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 align-self-center">
+                            <div class="card h-50 border-0 p-0 bg-section-light" style="display: {{is_contact_map_iframe}}">
+                                <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435519.23556989094!2d74.00404905408621!3d31.483101908426793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1711715157850!5m2!1sen!2s"
+                                        class="border-0 rounded" height="340" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mt-4 mt-md-0">
+            <p>&copy; 2024 Electronic Products. All rights reserved.</p>
+            <div class="d-flex justify-content-between">
+                <a href="privacy.html" class="text-start" style="display: inherit">Privacy Policy</a>
+                <a href="terms.html" class="text-center mx-md-4" style="display: inherit">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery CDN -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+<!-- Bootstrap CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+
+<!-- Custom JS -->
+<script>
+    // perform `js` actions
+    document.addEventListener("DOMContentLoaded", function () {
+        // add `sticky` styles to `navbar`
+        const topNavbar = document.querySelector('.top-navbar');
+
+        // when user scroll
+        window.addEventListener('scroll', function () {
+            (window.scrollY >= 36) ? topNavbar.classList.add('bg-dark', 'navbar-border',
+                'border-bottom', 'fixed-top'): topNavbar.classList.remove('bg-dark',
+                'navbar-border', 'border-bottom', 'fixed-top');
+        });
+
+        // when already scrolled
+        (window.scrollY >= 36) ? topNavbar.classList.add('bg-dark', 'navbar-border', 'border-bottom',
+            'fixed-top'): topNavbar.classList.remove('bg-dark', 'navbar-border', 'border-bottom',
+            'fixed-top');
+    });
+
+    // perform `jQuery` actions
+    $(document).ready(function () {
+        // toggle `faq-card` visibility based on screen size
+        const cardContainer = $('#faqsCardContainer');
+        const loadMoreBtn = $('#btnLoadMoreFAQs');
+        const cards = $('.col-faq-card');
+
+        function toggleCards() {
+            const screenWidth = $(window).width();
+
+            // show all cards & hide Load More button when screen size >= 992px
+            if (screenWidth >= 992) {
+                cards.slideDown();
+                loadMoreBtn.slideUp();
+            } else {
+                // set no. of visible cards for smaller screens
+                const visibleCardsCount = screenWidth >= 768 ? 4 : 3;
+
+                cards.each(function (index) {
+                    (index < visibleCardsCount) ? $(this).slideDown(): $(this).slideUp();
+                });
+
+                // show/hide Load More button based on no. of visible cards
+                (visibleCardsCount < cards.length) ? loadMoreBtn.slideDown(): loadMoreBtn.slideUp();
+            }
+        }
+
+        // initial call to toggleCards function
+        toggleCards();
+
+        // show more cards on clicking Load More button
+        loadMoreBtn.on('click', function () {
+            const visibleCardsCount = $('.col-faq-card:visible').length;
+            const screenWidth = $(window).width();
+            const newVisibleCardsCount = screenWidth >= 768 ? visibleCardsCount + 4 :
+                visibleCardsCount + 3;
+
+            // show additional cards
+            cards.each(function (index) {
+                if (index >= visibleCardsCount && index < newVisibleCardsCount && index <
+                    cards.length) {
+                    $(this).slideDown();
+                }
+            });
+
+            // hide Load More button if all cards are visible
+            if (newVisibleCardsCount >= cards.length) {
+                loadMoreBtn.slideUp();
+            }
+        });
+
+        // show/hide `FAQs` cards on window resize
+        $(window).on('resize', function () {
+            toggleCards();
+        });
+    });
+</script>
+<script>
+    const url = window.location.href;
+    let domain = (new URL(url));
+    let hostname = domain.hostname;
+    let pathname = domain.pathname.split('/');
+    let protocol = domain.protocol;
+    let domain_url =  protocol +'//'+hostname+'/';
+    if(pathname.length > 2){
+        domain_url =  domain_url +pathname.slice(1,pathname.length - 1).join('/')+'/'+document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }else{
+        domain_url =  domain_url +document.querySelectorAll('[rel="canonical"]')[0].getAttribute('href');
+    }
+    document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
+</script>
+
+</body>
+
+</html>
